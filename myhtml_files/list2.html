@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css_files/style1.css"/>
+</head>
+<body>
+    <div style="border: 1px solid black;">
+    <p style="text-align: center;"><strong>Registration Form</strong></p>
+        <form>
+            <label for="fName">First Name</label>
+            <input type="text" id="fName" name="first_Name"><br><br>
+            <label style="text-decoration: underline;"><b>Hobbies</b></label><br><br>
+            <label for="swimming">Swimming</label>
+            <input type="checkbox" id="swimming" value="Swimming" name="Hobbies"><br>
+            <label for="singing">Singing</label>
+            <input type="checkbox" id="singing" value="Singing" name="Hobbies"><br>
+            <label for="clubbing">Clubbing</label>
+            <input type="checkbox" id="clubbing" value="Clubbing" name="Hobbies">
+            <br><br><label for="Phone">Phone</label>
+            <input type="tel" id="Phone" name="Phone_number"><br><br>
+            <label for="country">Select Country</label>
+            <select id="country" name="countries">
+                <option value="Australia">Australia</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Canada">Canada</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Zimbabwe">Zimbabwe</option>  
+            </select> <br><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" value="Male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female" value="Female" name="gender">
+            <br><br><label>Date</label>
+            <input type="datetime-local"><br><br>
+           
+            <textarea>Give Us Feedback Here!!</textarea>
+
+            <br><br><input type="submit" value="Send">
+            
+        </form>
+    </div>
+
+</body>
+</html>

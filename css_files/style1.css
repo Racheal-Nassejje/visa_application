@@ -1,0 +1,14 @@
+
+body{
+    background-color: aquamarine;
+}
+
+div{
+    width: 50%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+form{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}

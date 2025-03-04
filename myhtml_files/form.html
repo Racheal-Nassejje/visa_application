@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE FORM</title>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form>
+       <!--Name Field--> 
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="name" required><br><br>
+
+       <!--Date of Birth Field-->
+       <label for="date of birth">Date of Birth</label>
+       <input type="date" id="date of birth" name="Date of Birth"><br><br>
+
+       <!--Email Field-->
+       <label for="email">Email:</label>
+       <input type="email" id="email" name="email" required><br><br>
+
+       <!--Address Field-->
+       <label for="address">Address:</label>
+       <input type="text" id="address" name="address" required><br><br>
+
+       <!--Contact Field-->
+       <label for="Contacts">Contacts:</label>
+       <input type="number" id="Contacts" name="Contacts" required><br><br>
+
+       <!--Gender Field-->
+       <label for="Gender">Gender:</label><br><br>
+
+       <label for="female">Female</label>
+       <input type="radio" id="Female" name="Gender" value="female">
+
+       <label for="Male">Male</label>
+       <input type="radio" id="Male" name="Gender" value="Male">
+
+       <label for="others">Others</label>
+       <input type="radio" id="Others" name="Gender" value="others"><br><br>
+       
+       <!--Country Field-->
+       <label for="Country">Country</label>
+       <select name="Country" id="Country">
+       <option value="US">United States</option>
+       <option value="UK">United Kindgom</option>
+       <option value="DE">Germany</option>
+       <option value="UG">Uganda</option>
+       <option value="SA">South Africa</option>
+       </select><br><br>
+
+       <!--Submit-->
+       <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
